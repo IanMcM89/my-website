@@ -1,3 +1,71 @@
-body {
-    color: crimson;
+html { 
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(37, 107, 37, 0.73)),
+    url('../images/st-pete-skyline.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+#bars div.topBar {
+    position: absolute;
+    z-index: 5;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(29, 29, 29);
+    width: 100%;
+    height: 10%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#bars div.bottomBar {
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgb(29, 29, 29);
+    width: 100%;
+    height: 10%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#bars div.infoBar1 {
+    position: absolute;
+    z-index: 4;
+    top: 10%;
+    right: 58px;
+    background: white;
+    width: 40%;
+    height: 90%;
+    margin: 0px;
+    padding: 0px;
+    transform: skewX(-10deg);
+}
+
+#bars div.infoBar2 {
+    position: absolute;
+    z-index: 3;
+    top: 10%;
+    right: 0px;
+    background: white;
+    width: 10%;
+    height: 90%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#bars div.infoBar3 {
+    position: absolute;
+    z-index: 2;
+    top: 10%;
+    right: 28%;
+    background: rgb(156, 156, 156);
+    width: 20%;
+    height: 90%;
+    margin: 0px;
+    padding: 0px;
+    transform: skewX(-15deg);
 }
