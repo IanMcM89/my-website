@@ -30,15 +30,37 @@ body {
     }
 
         .name-box {
-            color: rgb(124, 124, 124);
             display: flex;
             justify-content: center;
             width: 40vw;
             height: 100%;
             margin-left: 20px;
             margin-right: 10px;
-            font-family: 'Courier New', Courier, monospace;
         }
+
+            h1 {
+                color: rgb(0, 0, 0);
+                margin: auto;
+                padding: 10px;
+                font-size: xx-large;
+                font-family: 'Courier New', Courier, monospace;
+            }
+
+            h1::before {
+                content: "IAN";
+                color: rgb(197, 54, 54);
+                margin: auto;
+                font-size: xx-large;
+                font-family: 'Courier New', Courier, monospace;
+            }
+
+            h1::after {
+                content: "MCMANUS";
+                color: rgb(124, 124, 124);
+                margin: auto;
+                font-size: xx-large;
+                font-family: 'Courier New', Courier, monospace;
+            }
 
         .menu-box {
             display: flex;
@@ -48,16 +70,23 @@ body {
             margin-right: 10%;
         }
 
-            .menu-box a {
+            .menu-box button {
                 color: rgb(124, 124, 124);
+                background: white;
                 padding: 10px;
                 font-size: large;
                 font-weight: bold;
                 font-family: 'Courier New', Courier, monospace;
                 margin: auto;
                 text-decoration: none;
+                border-left: none;
+                border-right: none;
                 border-top: rgba(0, 0, 0, 0) solid 5px;
                 border-bottom: rgba(0, 0, 0, 0) solid 5px;
+            }
+
+            .menu-box button:hover {
+                border-bottom: rgb(197, 54, 54) solid 5px;
             }
 
 .application-main {
@@ -118,6 +147,36 @@ body {
                 color: white;
             }
 
+            .content h2 {
+                margin-bottom: 5px;
+                font-size: 40px;
+                color: rgb(175, 23, 23);
+            }
+
+            .content h2::before {
+                content: "Hi there! I'm ";
+                font-family: 'Courier New', Courier, monospace;
+                color: white;
+                font-size: 25px;
+            }
+
+            .content h2::after {
+                content: ",";
+                font-family: 'Courier New', Courier, monospace;
+                color: white;
+                font-size: 25px;
+            }
+
+            .content h3 {
+                color: rgb(53, 53, 53);
+                margin-left: 5%;
+                margin-top: 5px;
+            }
+
+            .content p {
+                font-size: 20px;
+            }
+
 .application-footer {
     background-color: rgb(34, 34, 34);
     display: flex;
@@ -149,3 +208,47 @@ body {
                 height: 45px;
                 margin: auto;
             }
+
+            .social-media-box a:hover {
+                justify-content: center;
+                height: 40px;
+                padding-right: 2.5px;
+                padding-left: 2.5px;
+            }
+
+@media screen and (max-device-width: 500px) {
+    .header-container {
+        flex-direction: column; /* was row */
+    }
+
+    .name-box {
+        width: 100vw; /* was 40vw */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h1::after {
+        font-size: 40px;
+    }
+
+    .menu-box {
+        width: 70vw;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 2%;
+    }
+
+    .menu-box button {
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-device-width: 1200px) {
+    .image-box {
+        max-height: 350px;
+    }
+}
