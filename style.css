@@ -5,12 +5,11 @@ body {
 }
 
 #application {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)), url(images/background/code-background.jpg);
+    background-image: linear-gradient(to right, rgb(75, 75, 75), rgba(255, 255, 255, 0.438));
     background-size: cover;
     background-color: rgb(0, 0, 0);
     width: 100vw;
     height: 100vh;
-    margin: auto;
 }
 
 #application-header {
@@ -18,7 +17,6 @@ body {
     display: flex;
     width: 100vw;
     height: 15vh;
-    margin: auto;
 }
 
     .header-container {
@@ -39,30 +37,30 @@ body {
         }
 
             h1 {
-                color: rgb(0, 0, 0);
-                margin: auto;
+                color: black;
+                font-size: x-large;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                 padding: 10px;
-                font-size: xx-large;
-                font-family: 'Courier New', Courier, monospace;
+                margin: auto;
             }
 
             h1::before {
-                content: "IAN";
-                color: rgb(197, 54, 54);
-                margin: auto;
-                font-size: xx-large;
-                font-family: 'Courier New', Courier, monospace;
+                content: "__";
+                color: rgb(175, 30, 30);
+                background-color: rgb(175, 30, 30);
+                width: 10vw;
+                height: 50%;
             }
 
             h1::after {
-                content: "MCMANUS";
-                color: rgb(124, 124, 124);
+                content: " MCMANUS";
+                color: black;
+                font-size: x-large;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                 margin: auto;
-                font-size: xx-large;
-                font-family: 'Courier New', Courier, monospace;
             }
 
-        .menu-box {
+        .tab-box {
             display: flex;
             width: 60vw;
             height: 100%;
@@ -70,27 +68,35 @@ body {
             margin-right: 10%;
         }
 
-            .menu-box button {
-                color: rgb(124, 124, 124);
+            .tab-box button {
+                color: black;
                 background: white;
-                padding: 10px;
+                padding-top: 10px;
+                padding-bottom: 7px;
+                padding-left: 10px;
+                padding-right: 10px;
                 font-size: large;
-                font-weight: bold;
-                font-family: 'Courier New', Courier, monospace;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                 margin: auto;
                 text-decoration: none;
                 border-left: none;
                 border-right: none;
-                border-top: rgba(0, 0, 0, 0) solid 5px;
-                border-bottom: rgba(0, 0, 0, 0) solid 5px;
+                border-top: none;
+                border-bottom: rgba(0, 0, 0, 0) solid 3px;
+                cursor: pointer;
+                transition: 0.3s;
+            }
+            
+            .tab-box button:hover {
+                border-bottom: rgb(187, 187, 187) solid 2px;
             }
 
-            .menu-box button:hover {
-                border-bottom: rgb(197, 54, 54) solid 5px;
+            .tab-box button.active {
+                border-bottom: rgb(175, 30, 30) solid 3px;
             }
 
-.application-main {
-    background: linear-gradient(250deg, rgba(0,0,0,0) 60%, rgba(172, 39, 39, 0.671) calc(60% + 2px), rgb(80, 12, 12) 98%);
+#application-main {
+    background: linear-gradient(250deg, rgba(0,0,0,0) 60%, rgba(172, 39, 39, 0.671) calc(60% + 2px), rgb(73, 32, 32) 98%);
     display: flex;
     width: 100vw;
     height: 70vh;
@@ -99,85 +105,170 @@ body {
     .main-container {
         display: flex;
         flex-direction: row;
-        width: 100%;
-        height: 100%;
+        width: 70%;
+        height: 85%;
         margin: auto;
+        box-shadow: rgba(44, 44, 44, 0.493) 20px 20px 20px;
     }
 
-        .image-box {
+        .profile-box {
             display: flex;
-            justify-content: center;
-            width: 30vw;
-            max-height: 100%;
-            min-width: auto;
-            min-height: auto;
-            margin: 20px;
-            padding-left: 20px;
+            flex-direction: column;
+            width: 35%;
+            height: 100%;
         }
 
-            .image-box img {
+            .profile-image {
+                background-image: url(images/placeholders/blank-profile-picture-.png);
+                background-size: cover;
                 display: flex;
                 max-width: 100%;
-                max-height: 100%;
-                min-width: auto;
-                min-height: auto;
-                border: rgba(131, 131, 131, 0.705) 10px solid;
-                box-shadow: rgb(44, 44, 44) 5px 5px 5px;
+                height: 70%;
             }
 
-        .content-box {
-            background: rgba(136, 136, 136, 0.479);
-            display: flex;
-            width: 70vw;
-            max-height: 100%;
-            min-width: 0;
-            min-height: 0;
-            margin: 20px;
-        }
+                .profile-radial {
+                    background: radial-gradient(circle, rgba(255,255,255,0) 50%, rgb(211, 211, 211) calc(50% + 2px));
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    max-height: 100%;
+                }
 
-            .content {
+            .profile-info {
                 display: flex;
                 flex-direction: column;
-                width: 100%;
-                max-height: 100%;
+                background-color: rgb(211, 211, 211);
+                width: 90%;
+                height: 25%;
+                padding: 5%;
+            }
+
+                .profile-name {
+                    display: flex;
+                    justify-content: center;
+                    width: 80%;
+                    height: auto;
+                    margin: auto;
+                }
+
+                .profile-ul {
+                    display: flex;
+                    background-color: rgb(175, 30, 30);
+                    width: 50%;
+                    height: 2%;
+                    margin-top: 2%;
+                    margin-bottom: 2%;
+                    margin-left: 25%;
+                    margin-right: 25%;
+                }
+
+                .profile-occupation {
+                    color: rgb(92, 92, 92);
+                    display: flex;
+                    justify-content: center;
+                    width: 80%;
+                    height: auto;
+                    margin: auto;
+                }
+
+                .profile-info h3 {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    height: 100%;
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    margin: auto;
+                }
+
+        .content-box {
+            background: rgb(255, 255, 255);
+            display: flex;
+            width: 65%;
+            max-height: 100%;
+        }
+
+            .tab-content {
+                color: rgb(0, 0, 0);
+                display: none;
+                width: 96%;
+                max-height: 93%;
                 min-width: 0;
                 min-height: 0;
-                padding: 25px;
-                font-family: 'Courier New', Courier, monospace;
-                color: white;
+                padding: 10%;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                animation: fadeEffect 1s;
+            }
+            
+            /* Go from zero to full opacity */
+            @keyframes fadeEffect {
+            from {opacity: 0;}
+            to {opacity: 1;}
             }
 
-            .content h2 {
+            .tab-content h2 {
+                margin-top: 0;
                 margin-bottom: 5px;
                 font-size: 40px;
-                color: rgb(175, 23, 23);
+                color: rgb(212, 71, 71);
+                width: 100%;
             }
 
-            .content h2::before {
+            .tab-content h2::before {
                 content: "Hi there! I'm ";
-                font-family: 'Courier New', Courier, monospace;
-                color: white;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: rgb(0, 0, 0);
                 font-size: 25px;
+                width: 100%;
             }
 
-            .content h2::after {
+            .tab-content h2::after {
                 content: ",";
-                font-family: 'Courier New', Courier, monospace;
-                color: white;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: rgb(0, 0, 0);
                 font-size: 25px;
+                width: 100%;
             }
 
-            .content h3 {
-                color: rgb(53, 53, 53);
-                margin-left: 5%;
-                margin-top: 5px;
+            .tab-content h3 {
+                display: flex;
+                color: rgb(139, 139, 139);
+                width: 100%;
+                margin-top: 0;
+                margin-bottom: 50px;
             }
 
-            .content p {
+            .tab-content p {
+                display: flex;
                 font-size: 20px;
+                width: 100%;
+                padding-bottom: 20px;
             }
 
-.application-footer {
+            #info #portfolio, #blog, #contact {
+                justify-content: center;
+                width: 100%;
+                max-height: 100%;
+            }
+
+                .tab-image {
+                    display: flex;
+                    max-width: 75%;
+                    max-height: 75%;
+                    margin: auto;
+                    padding-bottom: 5%;
+                }
+
+                .tab-p {
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    font-size: large;
+                    width: 100%;
+                    max-height: 25%;
+                    margin: auto;
+                }
+
+#application-footer {
     background-color: rgb(34, 34, 34);
     display: flex;
     width: 100vw;
@@ -207,6 +298,8 @@ body {
                 display: inline-flex;
                 height: 45px;
                 margin: auto;
+                cursor: pointer;
+                transition: 0.3s;
             }
 
             .social-media-box a:hover {
@@ -215,40 +308,3 @@ body {
                 padding-right: 2.5px;
                 padding-left: 2.5px;
             }
-
-@media screen and (max-device-width: 500px) {
-    .header-container {
-        flex-direction: column; /* was row */
-    }
-
-    .name-box {
-        width: 100vw; /* was 40vw */
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    h1 {
-        font-size: 40px;
-    }
-
-    h1::after {
-        font-size: 40px;
-    }
-
-    .menu-box {
-        width: 70vw;
-        margin-left: 15%;
-        margin-right: 15%;
-        margin-bottom: 2%;
-    }
-
-    .menu-box button {
-        font-size: x-large;
-    }
-}
-
-@media screen and (max-device-width: 1200px) {
-    .image-box {
-        max-height: 350px;
-    }
-}

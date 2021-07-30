@@ -1,17 +1,24 @@
-function homeButton () {
-    const divContent = document.getElementsByClassName("content");
-        
-        const h2 = document.createElement('h2');
-        h2.textContent = "Ian";
-        const h3 = document.createElement('h3');
-        h3.textContent = "Programming Trainee";
-        const p1 = document.createElement('p');
-        p1.textContent = "I'm currently enrolled in Flatiron School's Software-Engineering flex program, learning how to code from their brightest minds.";
-        const p2 = document.createElement('p');
-        p2.textContent = "To see more about me, click the icons below.";
-    
-        divContent[0].appendChild(h2);
-        divContent[0].appendChild(h3);
-        divContent[0].appendChild(p1);
-        divContent[0].appendChild(p2);
+window.onload = function() {
+    document.getElementById("defaultOpen").click();
 }
+
+function openTab(evt, tabName) {
+    // Declare all variables
+    let i, tabcontent, tablinks;
+  
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tab-content");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+  
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tab-links");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+  
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }

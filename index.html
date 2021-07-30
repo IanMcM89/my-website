@@ -3,6 +3,7 @@
     <head>
         <title>Ian McManus</title>
         <link rel = "stylesheet" href = "style.css">
+        <link rel = "stylesheet" href = "mquery.css">
     </head>
     <body>
         <script src="script.js"></script>
@@ -10,28 +11,59 @@
             <div id="application-header">
                 <div class="header-container">
                     <div class="name-box">
-                        <h1> | </h1>
+                        <h1> IAN</h1>
                     </div>
-                    <div class="menu-box">
-                        <button onclick="homeButton()">HOME</button>
-                        <button>INFO</button>
-                        <button>PORTFOLIO</button>
-                        <button>BLOG</button>
-                        <button>CONTACT</button>
+                    <div class="tab-box">
+                        <button class="tab-links" onclick="openTab(event, 'home')" id="defaultOpen">HOME</button>
+                        <button class="tab-links" onclick="openTab(event, 'info')">INFO</button>
+                        <button class="tab-links" onclick="openTab(event, 'portfolio')">PORTFOLIO</button>
+                        <button class="tab-links" onclick="openTab(event, 'blog')">BLOG</button>
+                        <button class="tab-links" onclick="openTab(event, 'contact')">CONTACT</button>
                     </div>
                 </div>
             </div>
-            <div class="application-main">
+            <div id="application-main">
                 <div class="main-container">
-                    <div class="image-box">
-                        <img src="images/placeholders/blank-profile-picture-.png" alt="A blank placeholder image for profile pic">
+                    <div class="profile-box">
+                        <div class="profile-image">
+                            <div class="profile-radial"></div>
+                        </div>
+                        <div class="profile-info">
+                            <div class="profile-name">
+                                <h3>Ian McManus</h3>
+                            </div>
+                            <div class="profile-ul"></div>
+                            <div class="profile-occupation">
+                            </div>
+                        </div>
                     </div>
                     <div class="content-box">
-                        <div class="content"></div>
+                        <div id="home" class="tab-content">
+                            <h2>IAN</h2>
+                            <h3>Flatiron Student</h3>
+                            <p>I'm currently enrolled in Flatiron School's Software-Engineering flex program, learning how to code from their brightest minds.</p>
+                            <p>To see more about me, click the icons below.</p>
+                        </div>
+                        <div id="info" class="tab-content">
+                            <img class="tab-image" src="images/placeholders/under-construction.png" alt="An under construction logo">
+                            <p class="tab-p">Please pardon my work!</p>
+                        </div>
+                        <div id="portfolio" class="tab-content">
+                            <img class="tab-image" src="images/placeholders/under-construction.png" alt="An under construction logo">
+                            <p class="tab-p">Please pardon my work!</p>
+                        </div>
+                        <div id="blog" class="tab-content">
+                            <img class="tab-image" src="images/placeholders/under-construction.png" alt="An under construction logo">
+                            <p class="tab-p">Please pardon my work!</p>
+                        </div>
+                        <div id="contact" class="tab-content">
+                            <img class="tab-image" src="images/placeholders/under-construction.png" alt="An under construction logo">
+                            <p class="tab-p">Please pardon my work!</p>
+                        </div>
                     </div>    
                 </div>
             </div>
-            <div class="application-footer">
+            <div id="application-footer">
                 <div class="footer-container">
                     <div class="social-media-box">
                         <a href="https://www.facebook.com/ian.mcmanus.754" target="_blank">
