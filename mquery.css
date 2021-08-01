@@ -133,6 +133,174 @@
     }
 }
 
+@media only screen and (min-device-width: 200px) and (max-device-width: 420px) {
+    .header-container {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h1::after {
+        font-size: 30px;
+    }
+
+    .tab-box button {
+        font-size: x-large;
+    }
+
+    .main-container {
+        flex-direction: column;
+        width: 50%;
+        height: 80%;
+    }
+
+    .profile-box {
+        width: 100%;
+        height: auto;
+    }
+
+    .profile-box img {
+        display: flex;
+        justify-content: center;
+        max-width: 90%;
+        height: auto;
+        margin: auto;
+    }
+
+    .content-box {
+        width: auto;
+        height: 100%;
+    }
+
+    .tab-content h2 {
+        font-size: 55px;
+    }
+
+    .tab-content h2::before {
+        font-size: 40px;
+    }
+
+    .tab-content h2::after {
+        font-size: 40px;
+    }
+
+    .tab-content h3 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .tab-content p {
+        font-size: 25px;
+    }
+
+    .social-media-box {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .social-media-box a {
+        height: 65px;
+    }
+
+    .social-media-box a:hover {
+        height: 60px;
+    }
+}
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 420px) and (orientation: landscape) {
+    .header-container {
+        flex-direction: row;
+    }
+
+    .name-box {
+        background-color: white;
+        width: 40vw;
+        height: 100%;
+        margin: 0px 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h1::after {
+        font-size: 25px;
+    }
+
+    .tab-box {
+        width: 60vw;
+        height: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .tab-box button {
+        font-size: large;
+    }
+
+    .main-container {
+        flex-direction: row;
+        width: 70%;
+        height: 85%;
+    }
+
+    .profile-box {
+        width: 100%;
+        height: auto;
+    }
+
+    .profile-box img {
+        display: flex;
+        justify-content: center;
+        max-width: 90%;
+        height: auto;
+        margin: auto;
+    }
+
+    .content-box {
+        width: auto;
+        height: 100%;
+    }
+
+    .tab-content h2 {
+        font-size: 35px;
+    }
+
+    .tab-content h2::before {
+        font-size: 20px;
+    }
+
+    .tab-content h2::after {
+        font-size: 20px;
+    }
+
+    .tab-content h3 {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
+    .tab-content p {
+        font-size: 15px;
+    }
+
+    .social-media-box {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .social-media-box a {
+        height: 35px;
+    }
+
+    .social-media-box a:hover {
+        height: 30px;
+    }
+}
+
 @media only screen and (min-device-width: 420px) and (max-device-width: 768px) {
     .main-container {
         width: 70%;
@@ -220,7 +388,7 @@
     }
 
     .tab-content {
-        padding: 5%;
+        padding: 8%;
     }
 
     .tab-content h2 {
