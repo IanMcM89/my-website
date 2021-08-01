@@ -81,10 +81,12 @@
 
     .social-media-box a {
         height: 65px;
+        width:auto;
     }
 
     .social-media-box a:hover {
         height: 60px;
+        width:auto;
     }
 }
 
@@ -203,10 +205,12 @@
 
     .social-media-box a {
         height: 65px;
+        width:auto;
     }
 
     .social-media-box a:hover {
         height: 60px;
+        width:auto;
     }
 }
 
@@ -293,13 +297,13 @@
     }
 
     .social-media-box a {
-        max-height: 40px;
-        width: auto;
+        height: 45px;
+        width:auto;
     }
 
     .social-media-box a:hover {
-        max-height: 40px;
-        width: auto;
+        height: 40px;
+        width:auto;
     }
 }
 
