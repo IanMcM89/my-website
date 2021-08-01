@@ -204,12 +204,12 @@
     }
 
     .social-media-box a {
-        height: 55px;
+        height: 45px;
         width:auto;
     }
 
     .social-media-box a:hover {
-        height: 50px;
+        height: 40px;
         width:auto;
     }
 }
@@ -291,19 +291,19 @@
     }
 
     .social-media-box {
-        width: 50%;
-        margin-left: 25%;
-        margin-right: 25%;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
 
     .social-media-box a {
-        height: 55px;
-        width:auto;
+        height: 45px;
+        width: auto;
     }
 
     .social-media-box a:hover {
-        height: 50px;
-        width:auto;
+        height: 40px;
+        width: auto;
     }
 }
 
