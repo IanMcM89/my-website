@@ -80,12 +80,12 @@
     }
 
     .social-media-box a {
-        height: 55px;
+        height: 65px;
         width:auto;
     }
 
     .social-media-box a:hover {
-        height: 50px;
+        height: 60px;
         width:auto;
     }
 }
