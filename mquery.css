@@ -287,17 +287,19 @@
     }
 
     .social-media-box {
-        width: 70%;
-        margin-left: 15%;
-        margin-right: 15%;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
 
     .social-media-box a {
         height: 35px;
+        width: 35px;
     }
 
     .social-media-box a:hover {
         height: 30px;
+        width: 30px;
     }
 }
 
