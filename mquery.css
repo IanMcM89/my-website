@@ -293,12 +293,12 @@
     }
 
     .social-media-box a {
-        height: 45px;
+        max-height: 40px;
         width: auto;
     }
 
     .social-media-box a:hover {
-        height: 40px;
+        max-height: 40px;
         width: auto;
     }
 }
