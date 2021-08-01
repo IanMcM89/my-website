@@ -80,12 +80,12 @@
     }
 
     .social-media-box a {
-        height: 65px;
+        height: 55px;
         width:auto;
     }
 
     .social-media-box a:hover {
-        height: 60px;
+        height: 50px;
         width:auto;
     }
 }
@@ -204,12 +204,12 @@
     }
 
     .social-media-box a {
-        height: 65px;
+        height: 55px;
         width:auto;
     }
 
     .social-media-box a:hover {
-        height: 60px;
+        height: 50px;
         width:auto;
     }
 }
@@ -297,12 +297,12 @@
     }
 
     .social-media-box a {
-        height: 45px;
+        height: 55px;
         width:auto;
     }
 
     .social-media-box a:hover {
-        height: 40px;
+        height: 50px;
         width:auto;
     }
 }
@@ -501,11 +501,13 @@
     }
 
     .social-media-box a {
-        height: 65px;
+        height: 55px;
+        width:auto;
     }
 
     .social-media-box a:hover {
-        height: 60px;
+        height: 50px;
+        width:auto;
     }
 }
 

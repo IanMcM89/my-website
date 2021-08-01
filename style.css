@@ -239,6 +239,7 @@ h1::after {
 .social-media-box a {
     display: inline-flex;
     height: 45px;
+    width:auto;
     margin: auto;
     cursor: pointer;
     transition: 0.3s;
@@ -247,6 +248,7 @@ h1::after {
 .social-media-box a:hover {
     justify-content: center;
     height: 40px;
+    width:auto;
     padding-right: 2.5px;
     padding-left: 2.5px;
 }
