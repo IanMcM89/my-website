@@ -1,438 +1,11 @@
-@media screen and (max-device-width: 1400px) and (max-device-height: 1024px) {
-    .main-container {
-        width: 80%;
-        max-height: 75%;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    .profile-box {
-        width: 40%;
-    }
-
-    .content-box {
-        width: 60%;
-    }
-}
-
-@media screen and (max-device-width: 1150px) and (max-device-height: 650px) {
-    .main-container {
-        width: 75%;
-        max-height: 90%;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .tab-content {
-        padding: 8%;
-    }
-}
-            
-@media screen and (max-device-width: 1100px) {
-    .main-container {
-        width: 80%;
-        max-height: 500px;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    .tab-content {
-        padding: 8%;
-    }
-}
-
-@media screen and (max-device-width: 1024px) and (max-device-height: 1366px) {
-    .profile-box {
-        width: 45%;
-    }
-
-    .content-box {
-        width: 55%;
-    }
-}
-
-@media screen and (max-device-width: 1024px) and (max-device-height: 700px) {
-    .profile-box {
-        width: 40%;
-    }
-
-    .content-box {
-        width: 60%;
-    }
-}
-
-@media screen and (max-device-width: 850px) {
-    .tab-box button {
-        padding-top: 8px;
-        padding-bottom: 5px;
-        border-bottom: rgba(0, 0, 0, 0) solid 3px;
-    }
-
-    .main-container {
-        width: 80%;
-        height: 88%;
-        margin-top: 2%;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-bottom: 2%;
-    }
-
-    .profile-box {
-        display: flex;
-        flex-direction: column;
-        width: 40%;
-        height: 100%;
-    }
-
-    .profile-box img {
-        max-height: 80%;
-        margin: auto;
-    }
-
-    .profile-info {
-        display: none;
-    }
-
-    .content-box {
-        width: 60%;
-    }
-
-    .tab-content {
-        padding: 8%;
-    }
-
-    .tab-content h2 {
-        font-size: 35px;
-    }
-
-    .tab-content h2::before {
-        font-size: 20px;
-    }
-
-    .tab-content h2::after {
-        font-size: 20px;
-    }
-
-    .tab-content h3 {
-        font-size: 15px;
-        margin-bottom: 30px;
-    }
-
-    .tab-content p {
-        font-size: 15px;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-}
-
-@media screen and (max-device-width: 850px) and (max-device-height: 900px) {
-    .main-container {
-        width: 80%;
-        height: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-
-    .profile-box {
-        width: 45%;
-    }
-
-    .profile-info {
-        display: flex;
-    }
-
-    .content-box {
-        width: 55%;
-    }
-}
-
-@media screen and (max-device-width: 850px) and (max-device-height: 450px) {
-    .profile-box {
-        width: 40%;
-    }
-
-    .profile-image {
-        max-width: 100%;
-        height: 100%;
-    }
-
-    .profile-info {
-        display: none;
-    }
-
-    .content-box {
-        width: 60%;
-    }
-
-    .tab-content {
-        padding: 10%;
-    }
-}
-
-@media screen and (max-device-width: 850px) and (max-device-height: 380px) {
-    .profile-box {
-        width: 40%;
-    }
-
-    .content-box {
-        width: 60%;
-    }
-}
-
-@media screen and (max-device-width: 770px) and (max-device-height: 1024px) {
-    .main-container {
-        width: 80%;
-        height: 90%;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    .profile-box {
-        width: 45%;
-    }
-
-    .profile-info {
-        display: flex;
-    }
-
-    .content-box {
-        width: 55%;
-    }
-    
-    .tab-content {
-        padding: 10%;
-    }
-
-    .tab-content h2 {
-        font-size: 40px;
-    }
-
-    .tab-content h2::before {
-        font-size: 25px;
-    }
-
-    .tab-content h2::after {
-        font-size: 25px;
-    }
-
-    .tab-content h3 {
-        font-size: 20px;
-        margin-bottom: 30px;
-    }
-
-    .tab-content p {
-        font-size: 20px;
-        padding-bottom: 30px;
-    }
-}
-
-    @media screen and (max-device-width: 750px) {
-    .main-container {
-        width: 80%;
-        height: 90%;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    .profile-radial {
-        width: 100%;
-        height: 100%;
-    }
-
-    .profile-info {
-        display: none;
-    }
-
-    .tab-content {
-        padding: 5%;
-    }
-
-    .tab-content h2 {
-        font-size: 40px;
-    }
-
-    .tab-content h2::before {
-        font-size: 25px;
-    }
-
-    .tab-content h2::after {
-        font-size: 25px;
-    }
-
-    .tab-content h3 {
-        font-size: 20px;
-        margin-bottom: 30px;
-    }
-
-    .tab-content p {
-        font-size: 15px;
-        padding-bottom: 30px;
-    }
-}
-
-@media screen and (max-device-width: 750px) and (max-device-height: 900px) {
-    .main-container {
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    .profile-info {
-        display: flex;
-    }
-}
-
-@media screen and (max-device-width: 750px) and (max-device-height: 450px) {
-    .main-container {
-        height: 80%;
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    .profile-box {
-        width: 40%;
-    }
-
-    .profile-info {
-        display: none;
-    }
-
-    .content-box {
-        width: 60%;
-    }
-}
-
-@media screen and (max-device-width: 700px) {
-    .main-container {
-        width: 80%;
-        height: 90%;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    .profile-radial {
-        width: 100%;
-        height: 100%;
-    }
-
-    .profile-info {
-        display: flex;
-    }
-
-    .tab-content {
-        padding: 5%;
-    }
-}
-
-@media screen and (max-device-width: 700px) and (max-device-height: 450px) {
-    .main-container {
-        height: 80%;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-
-    .profile-box {
-        width: 45%;
-    }
-
-    .content-box {
-        width: 55%;
-    }
-
-    .tab-content {
-        padding: 10%;
-    }
-}
-
-@media screen and (max-device-width: 700px) and (max-device-height: 380px) {
-    .profile-box {
-        width: 45%;
-    }
-
-    .content-box {
-        width: 55%;
-    }
-}
-
-@media screen and (max-device-width: 700px) and (max-device-height: 300px) {
-    .profile-box {
-        width: 40%;
-    }
-
-    .content-box {
-        width: 60%;
-    }
-}
-
-@media screen and (max-device-width: 680px) and (max-device-height: 450px) {
-    .profile-box {
-        width: 45%;
-    }
-
-    .profile-info {
-        display: none;
-    }
-
-    .content-box {
-        width: 55%;
-    }
-}
-
-@media screen and (max-device-width: 680px) and (max-device-height: 320px) {
-    .profile-box {
-        width: 40%;
-    }
-
-    .profile-info {
-        display: none;
-    }
-
-    .content-box {
-        width: 60%;
-    }
-}
-
-@media screen and (max-device-width: 655px) and (max-device-height: 280px) {
-    .profile-box {
-        width: 35%;
-    }
-
-    .profile-info {
-        display: none;
-    }
-
-    .content-box {
-        width: 65%;
-    }
-
-    .tab-content {
-        padding: 5%;
-    }
-}
-
-@media screen and (max-device-width: 550px) {
+@media only screen and (max-device-width: 420px) {
     .header-container {
         flex-direction: column;
     }
 
     .name-box {
         background-color: rgb(226, 226, 226);
-        width: 100vw;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -447,8 +20,8 @@
 
     .tab-box {
         width: 80vw;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .tab-box button {
@@ -456,36 +29,27 @@
     }
 
     .main-container {
-        display: flex;
         flex-direction: column;
-        width: 70%;
-        max-height: 90%;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: 15%;
-        margin-right: 15%;
+        width: 55%;
+        height: 80%;
     }
 
     .profile-box {
         width: 100%;
+        height: auto;
     }
 
-    .profile-image {
-        max-width: 100%;
-        height: 100%;
-    }
-
-    .profile-info {
-        display: none;
+    .profile-box img {
+        display: flex;
+        justify-content: center;
+        max-width: 90%;
+        height: auto;
+        margin: auto;
     }
 
     .content-box {
-        width: 100%;
+        width: auto;
         height: 100%;
-    }
-
-    .tab-content {
-        padding: 10%;
     }
 
     .tab-content h2 {
@@ -524,71 +88,32 @@
     }
 }
 
-@media screen and (max-device-width: 550px) and (max-device-height: 720px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 811px) and (orientation: landscape) {
     .main-container {
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
+        width: 70%;
+        height: 75%;
     }
-}
 
-@media screen and (max-device-width: 450px) and (max-device-height: 750px) {
-    .main-container {
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
+    .profile-box {
+        width: 45%;
+        height: auto;
     }
-}
 
-@media screen and (max-device-width: 450px) and (max-device-height: 700px) {
-    .main-container {
+    .profile-box img {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+
+    .content-box {
         width: 55%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media screen and (max-device-width: 380px) and (max-device-height: 700px) {
-    .main-container {
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media screen and (max-device-height: 350px) {
-    h1 {
-        padding: 8px;
-        font-size: large;
-    }
-
-    h1::after {
-        font-size: large;
-    }
-
-    .tab-box button {
-        padding-top: 6px;
-        padding-bottom: 3px;
-        border-bottom: rgba(0, 0, 0, 0) solid 3px;
-    }
-
-    .main-container {
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    .profile-info {
-        display: none;
-    }
-
-    .tab-content {
-        padding: 7%;
+        height: auto;
     }
 
     .tab-content h2 {
-        margin-bottom: 5px;
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .tab-content h2::before {
@@ -600,21 +125,123 @@
     }
 
     .tab-content h3 {
-        font-size: 16px;
-        margin-bottom: 20px;
+        font-size: 15px;
     }
 
     .tab-content p {
-        font-size: 16px;
-        margin-top: 10px;
-        margin-bottom: 0;
-        padding-bottom: 10px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-device-width: 420px) and (max-device-width: 768px) {
+    .main-container {
+        width: 70%;
+        height: 75%;
     }
 
-    .social-media-box {
-        width: 60%;
-        margin-left: 20%;
-        margin-right: 20%;
+    .profile-box {
+        width: auto;
+        height: auto;
+    }
+
+    .profile-box img {
+        display: flex;
+        justify-content: center;
+        width: auto;
+        height: 90%;
+        margin: auto;
+    }
+
+    .content-box {
+        width: 100%;
+        height: auto;
+    }
+
+    .tab-content {
+        padding: 8%;
+    }
+
+    .tab-content h2 {
+        font-size: 30px;
+    }
+
+    .tab-content h2::before {
+        font-size: 20px;
+    }
+
+    .tab-content h2::after {
+        font-size: 20px;
+    }
+
+    .tab-content h3 {
+        font-size: 15px;
+        padding-bottom: 15px
+    }
+
+    .tab-content p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-device-width: 420px) and (max-device-width: 768px) and (orientation:landscape) {
+    h1 {
+        font-size: 15px;
+    }
+
+    h1::after {
+        font-size: 15px;
+    }
+
+    .tab-box button {
+        font-size: 15px;
+    }
+
+    .main-container {
+        width: 70%;
+        height: 75%;
+    }
+
+    .profile-box {
+        width: auto;
+        height: auto;
+    }
+
+    .profile-box img {
+        display: flex;
+        justify-content: center;
+        width: auto;
+        height: 90%;
+        margin: auto;
+    }
+
+    .content-box {
+        width: 100%;
+        height: auto;
+    }
+
+    .tab-content {
+        padding: 5%;
+    }
+
+    .tab-content h2 {
+        font-size: 30px;
+    }
+
+    .tab-content h2::before {
+        font-size: 20px;
+    }
+
+    .tab-content h2::after {
+        font-size: 20px;
+    }
+
+    .tab-content h3 {
+        font-size: 15px;
+        padding-bottom: 15px
+    }
+
+    .tab-content p {
+        font-size: 15px;
     }
 
     .social-media-box a {
@@ -626,34 +253,327 @@
     }
 }
 
-@media screen and (max-device-width: 360px) and (max-device-height: 650px) {
-    .main-container {
-        width: 60%;
+@media only screen and (min-device-width: 420px) and (max-device-width: 768px) and (orientation:portrait) {
+    .header-container {
+        flex-direction: column;
+    }
+
+    .name-box {
+        background-color: rgb(226, 226, 226);
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
-}
 
-@media screen and (max-device-width: 350px) and (max-device-height: 700px) {
-    .main-container {
-        width: 75%;
+    h1 {
+        font-size: 40px;
+    }
+
+    h1::after {
+        font-size: 40px;
+    }
+
+    .tab-box {
+        width: 80vw;
         margin-left: auto;
         margin-right: auto;
     }
-}
 
-@media screen and (max-device-width: 350px) and (max-device-height: 600px) {
-    .main-container {
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
+    .tab-box button {
+        font-size: x-large;
     }
-}
 
-@media screen and (max-device-width: 300px) {
     .main-container {
+        flex-direction: column;
+        width: 55%;
+        height: 85%;
+    }
+
+    .profile-box {
+        width: 100%;
+        height: auto;
+    }
+
+    .profile-box img {
+        display: flex;
+        justify-content: center;
+        max-width: 90%;
+        height: auto;
+        margin: auto;
+    }
+
+    .content-box {
+        width: auto;
+        height: 100%;
+    }
+
+    .tab-content h2 {
+        font-size: 55px;
+    }
+
+    .tab-content h2::before {
+        font-size: 40px;
+    }
+
+    .tab-content h2::after {
+        font-size: 40px;
+    }
+
+    .tab-content h3 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .tab-content p {
+        font-size: 25px;
+    }
+
+    .social-media-box {
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
+    }
+
+    .social-media-box a {
+        height: 65px;
+    }
+
+    .social-media-box a:hover {
+        height: 60px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    h1 {
+        font-size: 15px;
+    }
+
+    h1::after {
+        font-size: 15px;
+    }
+
+    .tab-box button {
+        font-size: 15px;
+    }
+
+    .main-container {
+        width: 80%;
+        height: 75%;
+    }
+
+    .profile-box {
+        width: auto;
+        height: auto;
+    }
+
+    .profile-box img {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+
+    .content-box {
+        width: 100%;
+        height: auto;
+    }
+
+    .social-media-box a {
+        height: 35px;
+    }
+
+    .social-media-box a:hover {
+        height: 30px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:landscape) {
+    .main-container {
+        width: 70%;
+        height: 80%;
+    }
+
+    .profile-box {
+        width: auto;
+        height: auto;
+    }
+
+    .profile-box img {
+        display: flex;
+        justify-content: center;
+        width: auto;
+        height: 90%;
+        margin: auto;
+    }
+
+    .content-box {
+        width: 100%;
+        height: auto;
+    }
+
+    .tab-content {
+        padding: 8%;
+    }
+
+    .tab-content h2 {
+        font-size: 30px;
+    }
+
+    .tab-content h2::before {
+        font-size: 20px;
+    }
+
+    .tab-content h2::after {
+        font-size: 20px;
+    }
+
+    .tab-content h3 {
+        font-size: 15px;
+        padding-bottom: 15px
+    }
+
+    .tab-content p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait) {
+    .header-container {
+        flex-direction: column;
+    }
+
+    .name-box {
+        background-color: rgb(226, 226, 226);
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h1::after {
+        font-size: 35px;
+    }
+
+    .tab-box {
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tab-box button {
+        font-size: x-large;
+    }
+
+    .main-container {
+        flex-direction: row;
+        width: 80%;
+        height: 50%;
+    }
+
+    .profile-box {
+        width: 100%;
+        height: auto;
+    }
+
+    .profile-box img {
+        display: flex;
+        justify-content: center;
+        max-width: 90%;
+        height: auto;
+        margin: auto;
+    }
+
+    .content-box {
+        width: auto;
+        height: 100%;
+    }
+
+    .tab-content h2 {
+        font-size: 45px;
+    }
+
+    .tab-content h2::before {
+        font-size: 30px;
+    }
+
+    .tab-content h2::after {
+        font-size: 30px;
+    }
+
+    .tab-content h3 {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .tab-content p {
+        font-size: 20px;
+    }
+
+    .social-media-box {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .social-media-box a {
+        height: 65px;
+    }
+
+    .social-media-box a:hover {
+        height: 60px;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+    .main-container {
+        width: 80%;
+        height: 75%;
+    }
+
+    .profile-box {
+        width: auto;
+        height: auto;
+    }
+
+    .profile-box img {
+        display: flex;
+        justify-content: center;
+        width: auto;
+        height: 90%;
+        margin: auto;
+    }
+
+    .content-box {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation:portrait) {
+    .main-container {
+        width: 80%;
+        height: 45%;
+    }
+
+    .profile-box {
+        width: 50%;
+        height: auto;
+    }
+
+    .profile-box img {
+        display: flex;
+        justify-content: center;
+        width: auto;
+        height: 90%;
+        margin: auto;
+    }
+
+    .content-box {
+        width: 50%;
+        height: auto;
     }
 }

@@ -2,10 +2,11 @@ body {
     width: 100vw;
     height: 100vh;
     margin: auto;
+    background-color: rgb(34, 34, 34);
 }
 
 #application {
-    background-image: linear-gradient(to right, rgb(75, 75, 75), rgba(255, 255, 255, 0.438)), url(images/background/code-background.jpg);
+    background-image: linear-gradient(to right, rgb(43, 43, 43), rgba(221, 221, 221, 0.438)), url(images/background/code-background.jpg);
     background-size: cover;
     background-color: rgb(0, 0, 0);
     width: 100vw;
@@ -19,81 +20,78 @@ body {
     height: 15vh;
 }
 
-    .header-container {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        height: 75%;
-        margin-top: auto;
-    }
+.header-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 75%;
+    margin-top: auto;
+}
 
-        .name-box {
-            display: flex;
-            justify-content: center;
-            width: 40vw;
-            height: 100%;
-            margin-left: 20px;
-            margin-right: 10px;
-        }
+.name-box {
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    height: 100%;
+    margin: 0px 20px;
+}
 
-            h1 {
-                color: black;
-                font-size: x-large;
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                padding: 10px;
-                margin: auto;
-            }
+h1 {
+    color: black;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    margin: auto;
+}
 
-            h1::before {
-                content: "__";
-                color: rgb(175, 30, 30);
-                background-color: rgb(175, 30, 30);
-                width: 10vw;
-                height: 50%;
-            }
+h1::before {
+    content: "__";
+    color: rgb(175, 30, 30);
+    background-color: rgb(175, 30, 30);
+    width: 10vw;
+    height: 50%;
+}
 
-            h1::after {
-                content: " MCMANUS";
-                color: black;
-                font-size: x-large;
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                margin: auto;
-            }
+h1::after {
+    content: " MCMANUS";
+    color: black;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+}
 
-        .tab-box {
-            display: flex;
-            width: 60vw;
-            height: 100%;
-            margin-left: 10%;
-            margin-right: 10%;
-        }
+.tab-box {
+    display: flex;
+    width: 60vw;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
-            .tab-box button {
-                color: black;
-                background: white;
-                padding-top: 10px;
-                padding-bottom: 7px;
-                padding-left: 10px;
-                padding-right: 10px;
-                font-size: large;
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                margin: auto;
-                text-decoration: none;
-                border-left: none;
-                border-right: none;
-                border-top: none;
-                border-bottom: rgba(0, 0, 0, 0) solid 3px;
-                cursor: pointer;
-                transition: 0.3s;
-            }
-            
-            .tab-box button:hover {
-                border-bottom: rgb(187, 187, 187) solid 2px;
-            }
+.tab-box button {
+    color: black;
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    text-decoration: none;
+    border: none;
+    border-bottom: rgba(0, 0, 0, 0) solid 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
 
-            .tab-box button.active {
-                border-bottom: rgb(175, 30, 30) solid 3px;
-            }
+.tab-box button:hover {
+    border-bottom: rgb(187, 187, 187) solid 2px;
+}
+
+.tab-box button.active {
+    border-bottom: rgb(175, 30, 30) solid 3px;
+}
 
 #application-main {
     background: linear-gradient(250deg, rgba(0,0,0,0) 60%, rgba(172, 39, 39, 0.671) calc(60% + 2px), rgb(73, 32, 32) 98%);
@@ -102,171 +100,115 @@ body {
     height: 70vh;
     margin: auto;
 }
-    .main-container {
-        display: flex;
-        flex-direction: row;
-        width: 70%;
-        height: 85%;
-        margin: auto;
-        box-shadow: rgba(44, 44, 44, 0.493) 20px 20px 20px;
+.main-container {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 85%;
+    margin: auto;
+    box-shadow: rgba(44, 44, 44, 0.493) 20px 20px 20px;
+}
+
+.profile-box {
+    background: rgb(211, 211, 211);
+    display: flex;
+    width: 70%;
+    height: 100%;
+}
+
+.profile-box img {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.content-box {
+    background: rgb(255, 255, 255);
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.tab-content {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 8%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: fadeEffect 1s;
+}
+            
+    /* Go from zero to full opacity */
+    @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
     }
 
-        .profile-box {
-            display: flex;
-            flex-direction: column;
-            width: 35%;
-            height: 100%;
-        }
+.tab-content h2 {
+    font-size: 40px;
+    color: rgb(212, 71, 71);
+    width: 100%;
+    padding-bottom: 5%;
+    margin: 0;
+}
 
-            .profile-image {
-                background-image: url(images/background/ian-profile-picture-.png);
-                background-size: cover;
-                display: flex;
-                max-width: 100%;
-                height: 70%;
-            }
+.tab-content h2::before {
+    content: "Hi there! I'm ";
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    width: 100%;
+}
 
-                .profile-radial {
-                    background: radial-gradient(circle, rgba(255,255,255,0) 50%, rgb(211, 211, 211) calc(50% + 2px));
-                    display: flex;
-                    justify-content: center;
-                    width: 100%;
-                    max-height: 100%;
-                }
+.tab-content h2::after {
+    content: ",";
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    width: 100%;
+}
 
-            .profile-info {
-                display: flex;
-                flex-direction: column;
-                background-color: rgb(211, 211, 211);
-                width: 90%;
-                height: 25%;
-                padding: 5%;
-            }
+.tab-content h3 {
+    display: flex;
+    color: rgb(139, 139, 139);
+    width: 100%;
+    padding-bottom: 10%;
+    margin: 0;
+}
 
-                .profile-name {
-                    display: flex;
-                    justify-content: center;
-                    width: 80%;
-                    height: auto;
-                    margin: auto;
-                }
+.tab-content p {
+    display: flex;
+    font-size: 20px;
+    width: 100%;
+    padding-bottom: 5%;
+    margin: 0; 
+}
 
-                .profile-ul {
-                    display: flex;
-                    background-color: rgb(175, 30, 30);
-                    width: 50%;
-                    height: 2%;
-                    margin-top: 2%;
-                    margin-bottom: 2%;
-                    margin-left: 25%;
-                    margin-right: 25%;
-                }
+#info, #portfolio, #blog, #contact {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
 
-                .profile-occupation {
-                    color: rgb(92, 92, 92);
-                    display: flex;
-                    justify-content: center;
-                    width: 80%;
-                    height: auto;
-                    margin: auto;
-                }
+.tab-image {
+    display: flex;
+    max-width: 75%;
+    max-height: 75%;
+    margin: auto;
+}
 
-                .profile-info h3 {
-                    display: flex;
-                    justify-content: center;
-                    width: 100%;
-                    height: 100%;
-                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-                    margin: auto;
-                }
-
-        .content-box {
-            background: rgb(255, 255, 255);
-            display: flex;
-            width: 65%;
-            max-height: 100%;
-        }
-
-            .tab-content {
-                color: rgb(0, 0, 0);
-                display: none;
-                width: 96%;
-                max-height: 93%;
-                min-width: 0;
-                min-height: 0;
-                padding: 10%;
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                animation: fadeEffect 1s;
-            }
-            
-            /* Go from zero to full opacity */
-            @keyframes fadeEffect {
-            from {opacity: 0;}
-            to {opacity: 1;}
-            }
-
-            .tab-content h2 {
-                margin-top: 0;
-                margin-bottom: 5px;
-                font-size: 40px;
-                color: rgb(212, 71, 71);
-                width: 100%;
-            }
-
-            .tab-content h2::before {
-                content: "Hi there! I'm ";
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                color: rgb(0, 0, 0);
-                font-size: 25px;
-                width: 100%;
-            }
-
-            .tab-content h2::after {
-                content: ",";
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                color: rgb(0, 0, 0);
-                font-size: 25px;
-                width: 100%;
-            }
-
-            .tab-content h3 {
-                display: flex;
-                color: rgb(139, 139, 139);
-                width: 100%;
-                margin-top: 0;
-                margin-bottom: 50px;
-            }
-
-            .tab-content p {
-                display: flex;
-                font-size: 20px;
-                width: 100%;
-                padding-bottom: 20px;
-            }
-
-            #info #portfolio, #blog, #contact {
-                justify-content: center;
-                width: 100%;
-                max-height: 100%;
-            }
-
-                .tab-image {
-                    display: flex;
-                    max-width: 75%;
-                    max-height: 75%;
-                    margin: auto;
-                    padding-bottom: 5%;
-                }
-
-                .tab-p {
-                    display: flex;
-                    justify-content: center;
-                    text-align: center;
-                    font-size: large;
-                    width: 100%;
-                    max-height: 25%;
-                    margin: auto;
-                }
+.tab-p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+    width: 100%;
+    max-height: 25%;
+    margin: auto;
+}
 
 #application-footer {
     background-color: rgb(34, 34, 34);
@@ -277,34 +219,34 @@ body {
     margin: auto;
 }
 
-    .footer-container {
-        display: inline-flex;
-        width: 100%;
-        height: 100%;
-        bottom: 0;
-        margin: auto;
-    }
+.footer-container {
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    margin: auto;
+}
 
-        .social-media-box {
-            display: flex;
-            width: 60%;
-            height: 100%;
-            bottom: 0;
-            margin-left: 20%;
-            margin-right: 20%;
-        }
+.social-media-box {
+    display: flex;
+    width: 60%;
+    height: 100%;
+    bottom: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
-            .social-media-box a {
-                display: inline-flex;
-                height: 45px;
-                margin: auto;
-                cursor: pointer;
-                transition: 0.3s;
-            }
+.social-media-box a {
+    display: inline-flex;
+    height: 45px;
+    margin: auto;
+    cursor: pointer;
+    transition: 0.3s;
+}
 
-            .social-media-box a:hover {
-                justify-content: center;
-                height: 40px;
-                padding-right: 2.5px;
-                padding-left: 2.5px;
-            }
+.social-media-box a:hover {
+    justify-content: center;
+    height: 40px;
+    padding-right: 2.5px;
+    padding-left: 2.5px;
+}
