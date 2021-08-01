@@ -294,10 +294,12 @@
 
     .social-media-box a {
         height: 45px;
+        width: auto;
     }
 
     .social-media-box a:hover {
         height: 40px;
+        width: auto;
     }
 }
 
