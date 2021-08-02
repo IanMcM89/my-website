@@ -80,13 +80,11 @@
     }
 
     .social-media-box a {
-        max-width: 65px;
-        height: auto;
+        height: 65px;
     }
 
     .social-media-box a:hover {
-        max-width: 60px;
-        height: auto;
+        height: 60px;
     }
 }
 
@@ -204,13 +202,11 @@
     }
 
     .social-media-box a {
-        max-width: 45px;
-        height: auto;
+        height: 45px;
     }
 
     .social-media-box a:hover {
-        max-width: 40px;
-        height: auto;
+        height: 40px;
     }
 }
 
@@ -298,12 +294,10 @@
 
     .social-media-box a {
         max-height: 45px;
-        width: auto;
     }
 
     .social-media-box a:hover {
         max-height: 40px;
-        width: auto;
     }
 }
 
@@ -376,7 +370,7 @@
     }
 
     .profile-box {
-        width: auto;
+        width: 70%;
         height: auto;
     }
 
@@ -384,7 +378,7 @@
         display: flex;
         justify-content: center;
         width: auto;
-        height: 90%;
+        max-height: 90%;
         margin: auto;
     }
 
@@ -416,6 +410,14 @@
 
     .tab-content p {
         font-size: 15px;
+    }
+
+    .social-media-box a {
+        max-height: 45px;
+    }
+
+    .social-media-box a:hover {
+        max-height: 40px;
     }
 }
 
@@ -501,13 +503,11 @@
     }
 
     .social-media-box a {
-        max-width: 55px;
-        height: auto;
+        height: 55px;
     }
 
     .social-media-box a:hover {
-        max-width: 50px;
-        height: auto;
+        height: 50px;
     }
 }
 
