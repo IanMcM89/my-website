@@ -283,14 +283,6 @@
         margin-left: 20%;
         margin-right: 20%;
     }
-
-    .social-media-box a {
-        height: 45px;
-    }
-
-    .social-media-box a:hover {
-        height: 40px;
-    }
 }
 
 @media only screen and (min-device-width: 420px) and (max-device-width: 768px) {
