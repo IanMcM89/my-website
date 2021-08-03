@@ -72,20 +72,6 @@
     .tab-content p {
         font-size: 25px;
     }
-
-    .social-media-box {
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    .social-media-box a {
-        height: 65px;
-    }
-
-    .social-media-box a:hover {
-        height: 60px;
-    }
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 811px) and (orientation: landscape) {
@@ -194,12 +180,6 @@
     .tab-content p {
         font-size: 25px;
     }
-
-    .social-media-box {
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
 }
 
 @media only screen and (min-device-width: 200px) and (max-device-width: 420px) and (orientation: landscape) {
@@ -277,20 +257,6 @@
     .tab-content p {
         font-size: 15px;
     }
-
-    .social-media-box {
-        width: 60%;
-        margin-left: 20%;
-        margin-right: 20%;
-    }
-
-    .social-media-box a {
-        height: 45px;
-    }
-
-    .social-media-box a:hover {
-        height: 40px;
-    }
 }
 
 @media only screen and (min-device-width: 420px) and (max-device-width: 768px) {
@@ -347,7 +313,7 @@
     .name-box {
         background-color: white;
     }
-
+    
     h1 {
         font-size: 15px;
     }
@@ -406,16 +372,6 @@
 
     .tab-content p {
         font-size: 15px;
-    }
-
-    .social-media-box a {
-        max-height: 45px;
-        width: 45px;
-    }
-
-    .social-media-box a:hover {
-        max-height: 40px;
-        width: 40px;
     }
 }
 
@@ -492,20 +448,6 @@
 
     .tab-content p {
         font-size: 25px;
-    }
-
-    .social-media-box {
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    .social-media-box a {
-        height: 55px;
-    }
-
-    .social-media-box a:hover {
-        height: 50px;
     }
 }
 
