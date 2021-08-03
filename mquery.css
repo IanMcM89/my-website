@@ -347,7 +347,7 @@
     .name-box {
         background-color: white;
     }
-    
+
     h1 {
         font-size: 15px;
     }
@@ -410,10 +410,12 @@
 
     .social-media-box a {
         max-height: 45px;
+        width: 45px;
     }
 
     .social-media-box a:hover {
         max-height: 40px;
+        width: 40px;
     }
 }
 
