@@ -180,6 +180,14 @@
     .tab-content p {
         font-size: 25px;
     }
+
+    .social-media-box a img {
+        width: 40%;
+    }
+    
+    .social-media-box a img:hover {
+        width: 35%;
+    }
 }
 
 @media only screen and (min-device-width: 200px) and (max-device-width: 420px) and (orientation: landscape) {
@@ -449,19 +457,13 @@
     .tab-content p {
         font-size: 25px;
     }
-
-    .social-media-box {
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
+    
+    .social-media-box a img {
+        width: 40%;
     }
-
-    .social-media-box a {
-        height: 55px;
-    }
-
-    .social-media-box a:hover {
-        height: 50px;
+    
+    .social-media-box a img:hover {
+        width: 35%;
     }
 }
 
@@ -499,14 +501,6 @@
     .content-box {
         width: 100%;
         height: auto;
-    }
-
-    .social-media-box a {
-        height: 35px;
-    }
-
-    .social-media-box a:hover {
-        height: 30px;
     }
 }
 
@@ -635,18 +629,12 @@
         font-size: 20px;
     }
 
-    .social-media-box {
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
+    .social-media-box a img {
+        width: 40%;
     }
-
-    .social-media-box a {
-        height: 65px;
-    }
-
-    .social-media-box a:hover {
-        height: 60px;
+    
+    .social-media-box a img:hover {
+        width: 35%;
     }
 }
 
@@ -672,6 +660,14 @@
     .content-box {
         width: 100%;
         height: auto;
+    }
+
+    .social-media-box a img {
+        width: 30%;
+    }
+    
+    .social-media-box a img:hover {
+        width: 25%;
     }
 }
 

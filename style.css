@@ -237,17 +237,25 @@ h1::after {
 
 .social-media-box a {
     display: inline-flex;
-    height: 45px;
-    width: auto;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.social-media-box a img {
+    display: flex;
+    height: auto;
+    width: 20%;
     margin: auto;
     cursor: pointer;
     transition: 0.3s;
 }
 
-.social-media-box a:hover {
-    justify-content: center;
-    height: 40px;
-    width: auto;
-    padding-right: 2.5px;
-    padding-left: 2.5px;
+.social-media-box a img:hover {
+    display: flex;
+    height: auto;
+    width: 15%;
+    margin: auto;
+    cursor: pointer;
+    transition: 0.3s;
 }
