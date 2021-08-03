@@ -375,11 +375,11 @@
     }
 
     .social-media-box a {
-        max-width: 45px;
+        width: 45px;
     }
 
     .social-media-box a:hover {
-        max-width: 40px;
+        width: 40px;
     }
 }
 
