@@ -344,10 +344,6 @@
 }
 
 @media only screen and (min-device-width: 420px) and (max-device-width: 768px) and (orientation:landscape) {
-    .name-box {
-        background-color: rgb(161, 129, 129);
-    }
-
     h1 {
         font-size: 15px;
     }
@@ -407,15 +403,6 @@
     .tab-content p {
         font-size: 15px;
     }
-
-    .social-media-box a {
-        height: 45px;
-    }
-
-    .social-media-box a:hover {
-        height: 40px;
-    }
-}
 
 @media only screen and (min-device-width: 420px) and (max-device-width: 768px) and (orientation:portrait) {
     .header-container {
