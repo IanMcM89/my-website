@@ -208,7 +208,7 @@
     }
 
     .name-box {
-        background-color: rgb(146, 125, 125);
+        background-color: white;
         width: 40vw;
         height: 100%;
         margin: 0px 20px;
@@ -344,6 +344,10 @@
 }
 
 @media only screen and (min-device-width: 420px) and (max-device-width: 768px) and (orientation:landscape) {
+    .name-box {
+        background-color: rgb(161, 129, 129);
+    }
+
     h1 {
         font-size: 15px;
     }
