@@ -373,6 +373,14 @@
     .tab-content p {
         font-size: 15px;
     }
+
+    .social-media-box a {
+        max-width: 45px;
+    }
+
+    .social-media-box a:hover {
+        max-width: 40px;
+    }
 }
 
 @media only screen and (min-device-width: 420px) and (max-device-width: 768px) and (orientation:portrait) {
@@ -448,6 +456,20 @@
 
     .tab-content p {
         font-size: 25px;
+    }
+
+    .social-media-box {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .social-media-box a {
+        height: 55px;
+    }
+
+    .social-media-box a:hover {
+        height: 50px;
     }
 }
 
