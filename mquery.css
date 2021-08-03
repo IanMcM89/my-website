@@ -182,11 +182,11 @@
     }
 
     .social-media-box a img {
-        width: 40%;
+        max-width: 40%;
     }
     
     .social-media-box a img:hover {
-        width: 35%;
+        max-width: 35%;
     }
 }
 
@@ -459,11 +459,11 @@
     }
     
     .social-media-box a img {
-        width: 40%;
+        max-width: 40%;
     }
     
     .social-media-box a img:hover {
-        width: 35%;
+        max-width: 35%;
     }
 }
 
@@ -630,11 +630,11 @@
     }
 
     .social-media-box a img {
-        width: 40%;
+        max-width: 40%;
     }
     
     .social-media-box a img:hover {
-        width: 35%;
+        max-width: 35%;
     }
 }
 
@@ -663,11 +663,11 @@
     }
 
     .social-media-box a img {
-        width: 30%;
+        max-width: 30%;
     }
     
     .social-media-box a img:hover {
-        width: 25%;
+        max-width: 25%;
     }
 }
 

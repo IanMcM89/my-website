@@ -245,7 +245,7 @@ h1::after {
 .social-media-box a img {
     display: flex;
     height: auto;
-    width: 20%;
+    max-width: 20%;
     margin: auto;
     cursor: pointer;
     transition: 0.3s;
@@ -254,7 +254,7 @@ h1::after {
 .social-media-box a img:hover {
     display: flex;
     height: auto;
-    width: 15%;
+    max-width: 15%;
     margin: auto;
     cursor: pointer;
     transition: 0.3s;
