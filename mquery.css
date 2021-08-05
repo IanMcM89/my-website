@@ -161,15 +161,15 @@
     }
 
     .welcome-message h2 {
-        font-size: 55px;
+        font-size: 45px;
     }
 
     .welcome-message h2::before {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .welcome-message h2::after {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .welcome-message h3 {
@@ -181,12 +181,18 @@
         font-size: 25px;
     }
 
+    .social-media-box {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
     .social-media-box a img {
-        max-width: 30%;
+        max-width: 40%;
     }
     
     .social-media-box a img:hover {
-        max-width: 25%;
+        max-width: 35%;
     }
 }
 
@@ -241,8 +247,8 @@
     }
 
     .content-box {
-        width: auto;
-        height: 100%;
+        width: 100%;
+        height: auto;
     }
 
     .welcome-message h2 {
@@ -264,6 +270,20 @@
 
     .welcome-message p {
         font-size: 15px;
+    }
+
+    .social-media-box {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .social-media-box a img {
+        max-width: 20%;
+    }
+    
+    .social-media-box a img:hover {
+        max-width: 15%;
     }
 }
 
@@ -383,8 +403,8 @@
     }
 
     .tab-image {
-        max-width: 60%;
-        max-height: 60%;
+        max-width: 50%;
+        max-height: 50%;
     }
 }
 
@@ -461,6 +481,12 @@
 
     .welcome-message p {
         font-size: 25px;
+    }
+
+    .social-media-box {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     
     .social-media-box a img {
@@ -619,15 +645,15 @@
     }
 
     .welcome-message h2 {
-        font-size: 45px;
+        font-size: 35px;
     }
 
     .welcome-message h2::before {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .welcome-message h2::after {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .welcome-message h3 {
@@ -637,6 +663,12 @@
 
     .welcome-message p {
         font-size: 20px;
+    }
+
+    .social-media-box {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .social-media-box a img {
@@ -665,11 +697,6 @@
         width: auto;
         height: 90%;
         margin: auto;
-    }
-
-    .content-box {
-        width: 100%;
-        height: auto;
     }
 
     .tab-image {

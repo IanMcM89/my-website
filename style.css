@@ -1,8 +1,8 @@
 body {
+    background-color: rgb(34, 34, 34);
     width: 100vw;
     height: 100vh;
     margin: auto;
-    background-color: rgb(34, 34, 34);
 }
 
 #application {
@@ -132,13 +132,7 @@ h1::after {
     height: auto;
 }
 
-#home {
-    flex-direction: row;
-    justify-content: center;
-    width: 80%;
-    height: auto;
-    padding: 5%;
-    margin: auto;
+.tab-content {
     animation: fadeEffect 1s;
 }
 
@@ -147,6 +141,15 @@ h1::after {
         from {opacity: 0;}
         to {opacity: 1;}
         }
+
+#home {
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    padding: 5%;
+    margin: auto;
+}
 
 .open-quote {
     display: flex;
@@ -188,7 +191,7 @@ h1::after {
 .welcome-message h2 {
     font-size: 40px;
     color: rgb(212, 71, 71);
-    width: 90%;
+    width: 100%;
     padding-bottom: 5%;
     margin: 0;
 }
