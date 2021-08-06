@@ -117,6 +117,20 @@
     .welcome-message p {
         font-size: 15px;
     }
+
+    .social-media-box {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .social-media-box a img {
+        max-width: 40%;
+    }
+    
+    .social-media-box a img:hover {
+        max-width: 35%;
+    }
 }
 
 @media only screen and (min-device-width: 200px) and (max-device-width: 420px) {
@@ -241,8 +255,8 @@
     .profile-box img {
         display: flex;
         justify-content: center;
-        width: auto;
-        max-height: 90%;
+        max-width: 90%;
+        height: auto;
         margin: auto;
     }
 
